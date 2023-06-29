@@ -1,0 +1,18 @@
+Hook useRef pozwala na zachowanie wartości między renderowaniami.
+Może być używany do przechowywania zmiennej wartości, która nie powoduje ponownego renderowania po aktualizacji.
+Można go użyć do bezpośredniego dostępu do elementu DOM.
+Nie powoduje ponownego renderowania
+Gdybyśmy spróbowali policzyć, ile razy nasza aplikacja jest renderowana przy użyciu hooka useState, wpadlibyśmy w nieskończoną pętlę, ponieważ ten hook sam powoduje ponowne renderowanie.
+Aby tego uniknąć, możemy użyć hooka useRef.
+
+useRef() zwraca tylko jeden element. Zwraca obiekt o nazwie current.
+Podczas inicjalizacji useRef ustawiamy wartość początkową: useRef(0).
+
+Dostęp do elementów DOM
+Ogólnie rzecz biorąc, chcemy, aby React zajmował się wszystkimi manipulacjami DOM.
+Ale są przypadki, w których można użyć useRef bez powodowania problemów.
+W React możemy dodać atrybut ref do elementu, aby uzyskać do niego bezpośredni dostęp w DOM.
+
+Śledzenie zmian stanu
+Hook useRef może być również używany do śledzenia poprzednich wartości stanu.
+Dzieje się tak, ponieważ jesteśmy w stanie zachować wartości useRef między renderowaniami.

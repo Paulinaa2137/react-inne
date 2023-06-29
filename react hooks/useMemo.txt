@@ -1,0 +1,6 @@
+Memoizacja pozwala na zapisanie w pamięci podręcznej wyniku działania funkcji kiedy podamy takie same argumenty
+
+React useMemo Hook zwraca zapamiętaną wartość.
+Jest bardzo podobny do Hook'a useCallback (więcej w notce o tym hook'u :) Nie mylić ich ze sobą)
+Wydajność
+Hook useMemo może być używany do zapobiegania niepotrzebnemu uruchamianiu kosztownych, wymagających dużej ilości zasobów funkcji.

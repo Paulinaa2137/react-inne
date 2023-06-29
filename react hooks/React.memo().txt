@@ -1,0 +1,2 @@
+Użycie memo spowoduje, że React pominie renderowanie komponentu, jeśli jego rekwizyty nie uległy zmianie.
+Może to poprawić wydajność.

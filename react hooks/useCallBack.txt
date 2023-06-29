@@ -1,0 +1,13 @@
+React useCallback Hook zwraca zapamiętaną funkcję wywołania zwrotnego.
+
+Pomyśl o zapamiętywaniu jako przechowywaniu wartości w pamięci podręcznej, aby nie trzeba było jej ponownie obliczać.
+
+Pozwala nam to wyizolować funkcje intensywnie korzystające z zasobów, aby nie uruchamiały się one automatycznie przy każdym renderowaniu.
+
+Hook useCallback działa tylko wtedy, gdy aktualizuje się jedna z jego zależności.
+
+Może to poprawić wydajność.
+
+Hooki useCallback i useMemo są podobne. Główna różnica polega na tym, że useMemo zwraca zapamiętaną wartość, a useCallback zwraca zapamiętaną funkcję.
+
+Jednym z powodów użycia useCallback jest zapobieganie ponownemu renderowaniu komponentu, chyba że zmieniły się jego propsy.
