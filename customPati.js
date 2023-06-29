@@ -1,0 +1,1 @@
+ const [items, setItems] = useState(cartVersion().sort(() => Math.random() - 0.5));

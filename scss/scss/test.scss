@@ -1,0 +1,18 @@
+//Zmienne
+
+$triangle-width:0;
+$triangle-height:0;
+$size:100px;
+$style:solid;
+$color: rgb(134, 48, 48);
+.triangle-in-scss {
+    width: $triangle-width;
+    height: $triangle-height;
+    border-left: $size $style transparent;
+    border-right: $size $style transparent;
+    border-bottom: $size $style $color;
+  }
+  #par2{
+    background-color:$color;
+    color: white
+    }

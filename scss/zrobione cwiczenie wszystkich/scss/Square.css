@@ -1,0 +1,11 @@
+.square-in-scss {
+  width: 0px;
+  height: 0px;
+  margin-bottom: 20px;
+  border: 100px solid rgba(167, 40, 40, 0.966);
+}
+
+#par2 {
+  background-color: rgba(167, 40, 40, 0.966);
+  color: white;
+}/*# sourceMappingURL=Square.css.map */
