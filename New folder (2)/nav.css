@@ -1,0 +1,78 @@
+#nav{
+    background-color: rgba(255, 255, 255, 0.322);
+    height: 300px;
+    width: 260px;
+    float: left;
+    display: flex;
+    justify-content: left;
+    border-radius: 30px;
+ padding: 0px;
+ margin: 60px;
+}
+
+.optionsButtons a{
+  text-decoration: none;
+  color:rgb(0, 0, 0);
+  text-anchor:none;
+
+  }
+  
+
+ 
+
+ li {
+    float: left;
+    width:220px;
+    margin:0px;
+    padding: 0px;
+    background-color:rgb(169, 226, 243);
+    height:60px;
+    list-style: none;
+    border-radius: 30px;
+    text-align: center;
+  }
+
+
+  
+   li:hover {
+    background-color:rgb(133, 179, 231);
+   
+  
+  }
+
+  
+  li:hover > a {
+    color:rgb(117, 0, 226);
+    
+  }
+
+  
+   li:hover > ul {
+    display: block;
+  }
+
+
+   li > ul {
+        display:none;
+        list-style-type:none;
+        padding:0;
+        margin:0;
+        
+        
+      }
+
+        li > ul > li {
+        position:relative;
+        
+        
+      }
+
+      
+
+      li > ul > li:hover > a {
+        color:rgb(80, 7, 109);
+        
+      }
+
+
+  

@@ -1,0 +1,69 @@
+body {
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 0.9em;
+  padding: 0;
+  margin: 0;
+  background-image: url(SiteStyle/background2.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100%;
+}
+#banner{
+    background-color: rgba(255, 255, 255, 0.356);
+  color:	#8c66ff;
+  font-size: 100px;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  height: 135px;
+  font-family: 'Fuzzy Bubbles', cursive;
+  text-shadow: 0 10px 10px rgb(79, 162, 201);
+}
+.text{
+    color: #6666ff;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.637);
+    height: 60px;
+    font-family: 'Kalam', cursive;
+    font-size: 15px;
+}
+.chill{
+    text-align: center;
+     text-shadow: 0 5px 5px rgba(70, 49, 110, 0.39);
+}
+
+.main_content{
+ color: white;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: 0px;
+    font-size: x-small;
+    text-align: center;
+    color: #4657b4;
+    background-color: #5296fd;
+
+  }
+  #OutsideLinks{
+    color: #c253cc;
+    position: absolute;
+    font-size: 15px;
+    font-weight: bold;
+    width: 200px;
+    float: left;
+  bottom:150px;
+  margin-left: 100px;
+  }
+  .photo{
+    width: 500px;
+    height: 300px;
+display:flex;
+float: right;
+margin: 0;
+  }
+  
